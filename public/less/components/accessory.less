@@ -1,0 +1,32 @@
+.ms_accessory {
+  text-align: center;
+  .ms_title {
+    text-align: center;
+  }
+
+  .ms_text {
+    margin-bottom: 1.7em;
+  }
+
+  &__stage {
+    margin-top: 80px;
+  }
+
+  @media (max-width: @screen-sm) {
+    &__inner {
+      display: block;
+      text-align: center;
+    }
+
+    &__content {
+      margin: 0 auto;
+      margin-bottom: 40px;
+    }
+
+    &__stage {
+      max-width: 350px;
+      width: 100%;
+      margin: 0 auto;
+    }
+  }
+}
