@@ -14,7 +14,7 @@
   <div class="ms_hero__inner ms_container">
     <div class="ms_hero__content">
       <h1 class="ms_hero__title">Ноутбук с&nbsp;предустановленной Windows 10&nbsp;&mdash; работает прямо из&nbsp;коробки</h1>
-      <a data-fancybox href="https://youtu.be/CBVbTl0Mjyw?rel=0&modestbranding=1&autohide=1&showinfo=0" class="ms_hero__btn">
+      <a data-fancybox href="https://youtu.be/RS0AJmnNxKc?rel=0&modestbranding=1&autohide=1&showinfo=0" class="ms_hero__btn">
         <div class="ms_hero__btn-icon">
           {{ Icon.render('i-play') }}
         </div>
@@ -26,36 +26,30 @@
   </div>
 </section>
 
-<section class="ms_advantages">
+<section class="ms_notebook panel">
 	<div class="ms_container">
-		<div class="ms_advantages__inner">
-			<div class="ms_advantages__stage">
-        <div class="ms_advantages__stage-icon">{{ Icon.render('i-hand') }}</div>
-        <h2 class="ms_advantages__stage-title">
-          Распакуйте ноутбук, чтобы&nbsp;узнать все&nbsp;преимущества предустановленной Windows&nbsp;10
-        </h2>
-				<div class="ms_advantages__stage-imgs">
-					<img src="{{ 'advantages-box.png'|resolveImage }}" alt="" class="ms_advantages__stage-img">
-					<img src="{{ 'advantages-box-2.png'|resolveImage }}" alt="" class="ms_advantages__stage-img">
-				</div>
-			</div>
-			<div class="ms_advantages__content">
-        <div class="ms_advantages__tabs">
-          {% for item in index.advantages %}
-            <img src="{{ item.img|resolveImage }}" alt="" class="ms_advantages__tab {% if loop.index === 1 %}active{% endif %}">
-          {% endfor %}
-        </div>
-				<div class="ms_advantages__list">
-					{% for item in index.advantages %}
-						<div class="ms_advantages__item">
-							<h3 class="ms_advantages__item-title">{{ item.title }}</h3>
-							<p class="ms_advantages__item-text">{{ item.text }}</p>
-						</div>
-					{% endfor %}
-				</div>
-			</div>
+		<div class="ms_notebook__inner">
+      <h2 class="ms_notebook__title">
+        Узнайте все&nbsp;преимущества предустановленной Windows&nbsp;10
+      </h2>
+      <img src="{{ 'laptop_box.png'|resolveImage }}" alt="" class="ms_notebook__img">
 		</div>
 	</div>
+</section>
+
+<section class="ms_advantages">
+  <div class="ms_advantages__list">
+    {% for item in index.advantages %}
+      <div class="ms_advantages__item ms_advantages__item--{{ loop.index }} panel">
+        <div class="ms_container">
+          <div class="ms_advantages__item-content">
+            <h3 class="ms_advantages__item-title">{{ item.title }}</h3>
+            <p class="ms_advantages__item-text">{{ item.text }}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
 </section>
 
 <section class="ms_laptops ms_section">
@@ -126,8 +120,8 @@
   <div class="ms_container">
     <div class="ms_gamepass__inner">
       <div class="ms_gamepass__headings">
-        <h3 class="ms_gamepass__title ms_title">Xbox Game Pass<br>для&nbsp;ПК с&nbsp;Windows&nbsp;10</h3>
-        <p class="ms_gamepass__text">Xbox Game Pass для&nbsp;ПК&nbsp;&mdash; это сервис, дающий неограниченный доступ к&nbsp;библиотеке из&nbsp;более чем 100 высококачественных компьютерных игр для устройств с&nbsp;Windows&nbsp;10. Новые игры добавляются на&nbsp;постоянной основе, поэтому у&nbsp;вас всегда будет во&nbsp;что поиграть.</p>
+        <h3 class="ms_gamepass__title ms_title">Xbox Game Pass для&nbsp;ПК с&nbsp;Windows&nbsp;10</h3>
+        <p class="ms_gamepass__text">Xbox Game Pass для ПК&nbsp;&mdash; это сервис, дающий неограниченный доступ к&nbsp;библиотеке из&nbsp;более чем 100 высококачественных компьютерных игр для&nbsp;устройств с&nbsp;Windows&nbsp;10. Новые игры добавляются на&nbsp;постоянной основе, поэтому у&nbsp;вас всегда будет во&nbsp;что поиграть.</p>
       </div>
       <img class="ms_gamepass__img" src="{{ 'gamepass-bg.jpg'|resolveImage }}" alt="">
       {{ Btn.render("Купить сейчас", "https://www.dns-shop.ru/product/91b5feaff3c83332/karta-oplaty-dostupa-microsoft-xbox-game-pass-dla-pc-na-3-mesaca/", 'ms_gamepass__btn') }}

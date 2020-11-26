@@ -530,26 +530,12 @@ template {
   width: 1px !important;
 }
 .ms_title {
-  font-size: 36px;
-  font-size: 2.25rem;
-  line-height: 1.278;
+  font-size: 30px;
+  font-size: 1.875rem;
+  line-height: 1.467;
   color: #1F1F1F;
   font-weight: 500;
   text-align: center;
-}
-@media (max-width: 992px) {
-  .ms_title {
-    font-size: 32px;
-    font-size: 2rem;
-    line-height: 1.188;
-  }
-}
-@media (max-width: 768px) {
-  .ms_title {
-    font-size: 30px;
-    font-size: 1.875rem;
-    line-height: 1.2;
-  }
 }
 @media (max-width: 480px) {
   .ms_title {
@@ -655,7 +641,7 @@ template {
   min-height: 100vh;
   padding-top: 30px;
   color: #fff;
-  background-image: url("../images/hero-bg.png");
+  background-image: url("../images/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
   background-size: cover;
@@ -1080,22 +1066,21 @@ template {
   padding-top: 60px;
 }
 .ms_gamepass__headings {
-  margin-bottom: 25px;
+  margin-bottom: 40px;
 }
 .ms_gamepass__inner {
   text-align: center;
-  max-width: 680px;
+  max-width: 700px;
   margin: 0 auto;
 }
 .ms_gamepass__text {
-  font-size: 14px;
-  font-size: 0.875rem;
-  line-height: 1.571;
-  color: #545150;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.333;
 }
 .ms_gamepass__img {
   display: block;
-  margin-bottom: 30px;
+  margin-bottom: 45px;
 }
 .ms_gamepass__btn {
   color: #054f14;
@@ -1107,6 +1092,9 @@ template {
   border-color: #93ee0d;
 }
 @media (max-width: 767px) {
+  .ms_gamepass__headings {
+    margin-bottom: 25px;
+  }
   .ms_gamepass__inner {
     background-image: none;
   }
@@ -1115,6 +1103,9 @@ template {
   }
   .ms_gamepass__text {
     margin-bottom: 1.5em;
+  }
+  .ms_gamepass__img {
+    margin-bottom: 30px;
   }
   .ms_gamepass__btn {
     max-width: 180px;
@@ -1136,9 +1127,7 @@ template {
     max-width: 50%;
   }
 }
-.ms_advantages {
-  height: 500px;
-  min-height: 100vh;
+.ms_notebook {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1156,176 +1145,159 @@ template {
   background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), to(#F7EBCC));
   background: linear-gradient(180deg, #FFFFFF 0%, #F7EBCC 100%);
   overflow: hidden;
+  padding: 60px 0;
+  height: 100vh;
 }
-.ms_advantages__icon {
-  margin: 0 auto;
-}
-.ms_advantages__inner {
-  position: relative;
+.ms_notebook__inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
 }
-.ms_advantages__stage {
-  position: relative;
-  text-align: center;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  cursor: pointer;
-  z-index: 1;
-}
-.ms_advantages__stage-icon {
-  margin-bottom: 15px;
-}
-.ms_advantages__stage-title {
-  font-size: 38px;
-  font-size: 2.375rem;
-  line-height: 1.263;
+.ms_notebook__title {
+  font-size: 30px;
+  font-size: 1.875rem;
+  line-height: 1.267;
   color: #1F1F1F;
   font-weight: 500;
-  max-width: 630px;
-  margin: 0 auto;
-  margin-bottom: -150px;
+  margin: 0;
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin-top: 75px;
 }
-.ms_advantages__stage-imgs {
-  position: relative;
-  width: 563px;
-  height: 377px;
-  margin: 0 auto;
+.ms_notebook__img {
+  margin-right: 45px;
 }
-.ms_advantages__stage-img {
-  position: absolute;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
+@media (max-width: 1299px) {
+  .ms_notebook {
+    height: auto;
+  }
+  .ms_notebook__title {
+    font-size: 28px;
+    font-size: 1.75rem;
+    line-height: 1.429;
+    max-width: 500px;
+  }
 }
-.ms_advantages.active .ms_advantages__stage {
-  cursor: default;
+@media (max-width: 991px) {
+  .ms_notebook {
+    padding: 60px 0;
+  }
+  .ms_notebook__inner {
+    display: block;
+    text-align: center;
+  }
+  .ms_notebook__title {
+    margin: 0 auto;
+    margin-bottom: 1em;
+  }
+  .ms_notebook__img {
+    margin: 0;
+  }
 }
-.ms_advantages__content {
-  max-width: 51%;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+.ms_advantages {
+  padding-bottom: 0;
 }
-.ms_advantages__tabs {
-  margin-bottom: 40px;
-}
-.ms_advantages__tab {
-  margin-right: 20px;
-  opacity: 0.4;
-  -webkit-filter: blur(1px);
-          filter: blur(1px);
-  cursor: pointer;
-  -webkit-transition: opacity 0.3s, -webkit-filter 0.3s;
-  transition: opacity 0.3s, -webkit-filter 0.3s;
-  transition: opacity 0.3s, filter 0.3s;
-  transition: opacity 0.3s, filter 0.3s, -webkit-filter 0.3s;
-}
-.ms_advantages__tab.active {
-  opacity: 1;
-  -webkit-filter: blur(0);
-          filter: blur(0);
-  cursor: default;
-}
-.ms_advantages__tab:last-child {
-  margin-right: 0;
-}
-.ms_advantages__list {
+.ms_advantages__item {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
-      -ms-flex-direction: row-reverse;
-          flex-direction: row-reverse;
+  min-height: 100vh;
+  padding: 50px 0;
+  background-color: #fff;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  -webkit-filter: drop-shadow(0px -20px 30px rgba(0, 0, 0, 0.2));
+          filter: drop-shadow(0px -20px 30px rgba(0, 0, 0, 0.2));
 }
-.ms_advantages__item {
-  width: 100%;
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+.ms_advantages__item--1 {
+  background-image: url('../images/advantage1-bg.jpg');
+}
+.ms_advantages__item--2 {
+  background-image: url('../images/advantage2-bg.jpg');
+}
+.ms_advantages__item--3 {
+  background-image: url('../images/advantage3-bg.jpg');
+}
+.ms_advantages__item--4 {
+  background-image: url('../images/advantage4-bg.jpg');
+}
+.ms_advantages__item--1 .ms_advantages__item-content {
+  background-color: rgba(3, 93, 132, 0.5);
+}
+.ms_advantages__item--2 .ms_advantages__item-content {
+  background-color: rgba(60, 42, 61, 0.5);
+}
+.ms_advantages__item--3 .ms_advantages__item-content {
+  background-color: rgba(0, 30, 106, 0.5);
+}
+.ms_advantages__item--4 .ms_advantages__item-content {
+  background-color: rgba(128, 69, 0, 0.5);
+}
+.ms_advantages__item:last-child {
+  margin-bottom: 0;
+}
+.ms_advantages__item-content {
+  position: relative;
+  max-width: 567px;
+  padding: 45px;
+  padding-top: 35px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
 }
 .ms_advantages__item-title {
+  position: relative;
   font-size: 26px;
   font-size: 1.625rem;
   line-height: 1.308;
-  color: #1F1F1F;
   font-weight: 500;
+  color: #fff;
 }
 .ms_advantages__item-text {
-  font-size: 18px;
-  font-size: 1.125rem;
-  line-height: 1.667;
+  position: relative;
+  font-size: 17px;
+  font-size: 1.063rem;
+  line-height: 1.529;
+  color: #fff;
   margin-bottom: 0;
 }
-@media (max-width: 1299px) {
-  .ms_advantages {
-    height: auto;
+@media (max-width: 991px) {
+  .ms_advantages__item-content {
+    margin: 0 auto;
   }
-  .ms_advantages__stage-title {
-    font-size: 30px;
-    font-size: 1.875rem;
-    line-height: 1.333;
-    max-width: 500px;
+}
+@media (max-width: 767px) {
+  .ms_advantages-title {
+    font-size: 24px;
+    font-size: 1.5rem;
+    line-height: 1.25;
   }
-  .ms_advantages__tab {
-    max-width: 90px;
+}
+@media (max-width: 767px) {
+  .ms_advantages__item {
+    display: block;
+  }
+  .ms_advantages__item-img {
+    display: block;
+    width: auto;
+    margin: 0 auto;
+    margin-bottom: 20px;
+  }
+  .ms_advantages__item-content {
+    width: auto;
+    padding: 25px;
+    padding-top: 20px;
+  }
+  .ms_advantages__item-title {
+    font-size: 20px;
+    font-size: 1.25rem;
+    line-height: 1.4;
   }
   .ms_advantages__item-text {
     font-size: 15px;
     font-size: 0.938rem;
-    line-height: 1.467;
-  }
-}
-@media (max-width: 991px) {
-  .ms_advantages {
-    padding: 60px 0;
-  }
-  .ms_advantages__inner {
-    display: block;
-  }
-  .ms_advantages__stage {
-    margin-bottom: 40px;
-  }
-  .ms_advantages__stage-icon {
-    display: none;
-  }
-  .ms_advantages__stage-title {
-    margin-bottom: 20px;
-  }
-  .ms_advantages__stage-imgs {
-    width: auto;
-    height: auto;
-  }
-  .ms_advantages__stage-img {
-    position: static;
-  }
-  .ms_advantages__stage-img:first-child {
-    display: none;
-  }
-  .ms_advantages__stage-img:last-child {
-    display: block;
-  }
-  .ms_advantages__content {
-    max-width: none;
-  }
-  .ms_advantages__tabs {
-    display: none;
-  }
-  .ms_advantages__list {
-    display: block;
-  }
-  .ms_advantages__item {
-    margin-bottom: 40px;
-  }
-  .ms_advantages__item:last-child {
-    margin-bottom: 0;
-  }
-  .ms_advantages__content {
-    width: auto;
+    line-height: 1.6;
   }
 }
 .ms_footer {

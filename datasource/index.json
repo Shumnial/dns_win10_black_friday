@@ -50,114 +50,114 @@
   ],
   "goods": [
     {
-      "title": "ASUS F515JA-BQ020T",
+      "title": "Acer Swift SF314-41-R431",
       "img": "goods1.jpg",
+      "specs": [
+        "Процессор: AMD Ryzen 3",
+        "Память: 8 ГБ",
+        "Накопитель: 256 ГБ"
+      ],
+      "price": "44 999",
+      "href": "https://www.dns-shop.ru/product/68c9d33ed4fe1b80/14-ultrabuk-acer-swift-3-sf314-41-r431-serebristyj/"
+    },
+    {
+      "title": "Acer Aspire A315-23-R0HR",
+      "img": "goods2.jpg",
+      "specs": [
+        "Процессор: AMD Ryzen 3",
+        "Память: 4 ГБ",
+        "Накопитель: 256 ГБ"
+      ],
+      "price": "39 999",
+      "href": "https://www.dns-shop.ru/product/a2034e078ab93332/156-noutbuk-acer-aspire-3-a315-23-r0hr-cernyj/"
+    },
+    {
+      "title": "Asus F515JA-BQ020T",
+      "img": "goods3.jpg",
       "specs": [
         "Процессор: Intel Core i3",
         "Память: 4 ГБ",
         "Накопитель: 128 ГБ"
       ],
-      "price": "37 999",
-      "href": "https://www.dns-shop.ru/product/04adde13c7373332/156-noutbuk-asus-laptop-f515ja-bq020t-serebristyj/description"
+      "price": "40 999",
+      "href": "https://www.dns-shop.ru/product/04adde13c7373332/156-noutbuk-asus-laptop-f515ja-bq020t-serebristyj/"
     },
     {
-      "title": "HP 15-dw1059ur",
-      "img": "goods2.jpg",
+      "title": "Asus D509DA-BQ265T",
+      "img": "goods4.jpg",
       "specs": [
-        "Процессор: Intel Pentium",
+        "Процессор: AMD Ryzen 3",
         "Память: 8 ГБ",
         "Накопитель: 256 ГБ"
       ],
-      "price": "37 999",
-      "href": "https://www.dns-shop.ru/product/20a51fccc19f1b80/156-noutbuk-hp-laptop-15-dw1059ur-seryj/"
+      "price": "43 999",
+      "href": "https://www.dns-shop.ru/product/9149e71d62ab3332/156-noutbuk-asus-laptop-d509da-bq265t-serebristyj/description/"
     },
     {
-      "title": "ASUS D509DA-BQ265T 1642588",
-      "img": "goods3.jpg",
+      "title": "HP 15-dw1059ur",
+      "img": "goods5.jpg",
       "specs": [
-        "Процессор: AMD Ryzen 3",
+        "Процессор: Intel Pentium",
         "Память: 8 ГБ",
         "Накопитель: 256 ГБ"
       ],
       "price": "41 999",
-      "href": "https://www.dns-shop.ru/product/9149e71d62ab3332/156-noutbuk-asus-laptop-d509da-bq265t-serebristyj/"
+      "href": "https://www.dns-shop.ru/product/20a51fccc19f1b80/156-noutbuk-hp-laptop-15-dw1059ur-seryj/"
     },
     {
-      "title": "Acer Spin 1 SP111-34N-P6VE",
-      "img": "goods4.jpg",
+      "title": "HP 15-dw1036ur",
+      "img": "goods6.jpg",
       "specs": [
         "Процессор: Intel Pentium",
         "Память: 4 ГБ",
-        "Накопитель: 64 ГБ"
-      ],
-      "price": "34 999",
-      "href": "https://www.dns-shop.ru/product/7b47ccfed4fe1b80/116-ultrabuk-acer-spin-1-sp111-34n-p6ve-serebristyj/"
-    },
-    {
-      "title": "Acer Aspire 3 A315-42-R552",
-      "img": "goods5.jpg",
-      "specs": [
-        "Процессор: AMD Ryzen 3",
-        "Память: 8 ГБ",
         "Накопитель: 256 ГБ"
       ],
-      "price": "40 999",
-      "href": "https://www.dns-shop.ru/product/65fc10d3827d1b80/156-noutbuk-acer-aspire-3-a315-42-r552-cernyj/"
+      "price": "36 999",
+      "href": "https://www.dns-shop.ru/product/d2434ea0e3511b80/156-noutbuk-hp-15-dw1036ur-seryj/"
     },
     {
-      "title": "HP 15s-fq1049ur 1653093",
-      "img": "goods6.jpg",
-      "specs": [
-        "Процессор: Intel Core i3",
-        "Память: 4 ГБ",
-        "Накопитель: 256 ГБ"
-      ],
-      "price": "39 999",
-      "href": "https://www.dns-shop.ru/product/aee2981079803332/156-noutbuk-hp-15s-fq1049ur-seryj/"
-    },
-    {
-      "title": "HP 15-gw0039ur 1684463",
+      "title": "HP 15-gw0039ur",
       "img": "goods7.jpg",
       "specs": [
         "Процессор: AMD Athlon 3150u",
         "Память: 8 ГБ",
         "Накопитель: 256 ГБ"
       ],
-      "price": "40 999",
+      "price": "42 999",
       "href": "https://www.dns-shop.ru/product/c068d4d2c1a01b80/156-noutbuk-hp-laptop-15-gw0039ur-seryj/"
     },
     {
-      "title": "Lenovo IdeaPad 3 15IIL05 1655093",
+      "title": "Lenovo IdeaPad 3 15IIL05",
       "img": "goods8.jpg",
       "specs": [
         "Процессор: Intel Core i3",
         "Память: 4 ГБ",
         "Накопитель: 256 ГБ"
       ],
-      "price": "38 999",
-      "href": "https://www.dns-shop.ru/product/e0a36ff584433332/156-noutbuk-lenovo-ideapad-3-15iil05-seryj/"
+      "price": "41 999",
+      "href": "https://www.dns-shop.ru/product/e0a36ff584433332/156-noutbuk-lenovo-ideapad-3-15iil05-seryj/characteristics/"
     },
     {
-      "title": "Lenovo IdeaPad S145-15AST 1395264",
+      "title": "Lenovo IdeaPad S145-15AST",
       "img": "goods9.jpg",
       "specs": [
         "Процессор: AMD A6",
         "Память: 4 ГБ",
         "Накопитель: 256 ГБ"
       ],
-      "price": "33 999",
-      "href": "https://www.dns-shop.ru/product/c59a2cfbd4f51b80/156-noutbuk-lenovo-ideapad-s145-15ast-cernyj/"
+      "price": "35 999",
+      "href": "https://www.dns-shop.ru/product/c59a2cfbd4f51b80/156-noutbuk-lenovo-ideapad-s145-15ast-cernyj/characteristics/"
     },
     {
-      "title": "Lenovo IdeaPad S145-15AST 1395262",
+      "title": "Lenovo IdeaPad S145-15AS",
       "img": "goods10.jpg",
       "specs": [
         "Процессор: AMD A6",
         "Память: 8 ГБ",
         "Накопитель: 256 ГБ"
       ],
-      "price": "35 999",
-      "href": "https://www.dns-shop.ru/product/c59a2cf9d4f51b80/156-noutbuk-lenovo-ideapad-s145-15ast-cernyj/"
+      "price": "38 999",
+      "href": "https://www.dns-shop.ru/product/c59a2cf9d4f51b80/156-noutbuk-lenovo-ideapad-s145-15ast-cernyj/characteristics/"
     },
     {
       "title": "Huawei Matebook 14D Nbl-WAQ9R",
@@ -167,11 +167,11 @@
         "Память: 8 ГБ",
         "Накопитель: 512 ГБ"
       ],
-      "price": "47 999",
-      "href": "https://www.dns-shop.ru/product/542dd7193d9c1b80/14-ultrabuk-huawei-matebook-d-14-nbl-waq9r-seryj/"
+      "price": "51 999",
+      "href": "https://www.dns-shop.ru/product/542dd7193d9c1b80/14-ultrabuk-huawei-matebook-d-14-nbl-waq9r-seryj/characteristics/"
     },
     {
-      "title": "Honor MagicBook 15 Boh-WAQ9HNR",
+      "title": "Honor MagicBook Nbl-WAQ9HNR",
       "img": "goods12.jpg",
       "specs": [
         "Процессор: AMD Ryzen 5",
@@ -179,7 +179,7 @@
         "Накопитель: 256 ГБ"
       ],
       "price": "49 999",
-      "href": "https://www.dns-shop.ru/product/4352aeff967e3332/156-noutbuk-honor-magicbook-15-boh-waq9hnr-seryj/"
+      "href": "https://www.dns-shop.ru/product/96a92f403b483332/14-ultrabuk-honor-magicbook-14-nbl-waq9hnr-seryj/"
     }
   ],
   "officeFeatures": [

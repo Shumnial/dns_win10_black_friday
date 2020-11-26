@@ -3,23 +3,22 @@
   padding-top: 60px;
 
   &__headings {
-    margin-bottom: 25px;
+    margin-bottom: 40px;
   }
 
   &__inner {
     text-align: center;
-    max-width: 680px;
+    max-width: 700px;
     margin: 0 auto;
   }
 
   &__text {
-    .fz(14, 22);
-    color: #545150;
+    .fz(18, 24);
   }
 
   &__img {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 45px;
   }
 
   &__btn {
@@ -35,6 +34,10 @@
   }
 
   @media (max-width: @screen-xs-max) {
+    &__headings {
+      margin-bottom: 25px;
+    }
+
     &__inner {
       background-image: none;
     }
@@ -45,6 +48,10 @@
 
     &__text {
       margin-bottom: 1.5em;
+    }
+
+    &__img {
+      margin-bottom: 30px;
     }
 
     &__btn {
